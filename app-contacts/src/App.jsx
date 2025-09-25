@@ -2,13 +2,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-  
+
 import NavBar from './components/NavBar';
 import Formulario from './components/Formulario';
 import Contacts from './components/Contacts';
 
 function App() {
-
   return (
     <>
       <NavBar />
@@ -25,6 +24,8 @@ function App() {
           </div>
         </div>
 
+        <h2 className="text-center mt-4">Aplicación CRUD FullStack</h2>
+
         <div className="row">
           <div className="col-md-5 mt-5">
             <Formulario />
@@ -38,4 +39,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
