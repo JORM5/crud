@@ -164,6 +164,20 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+
+
+# --- Frontend (Vite/React) ---
+app-contacts/node_modules/
+app-contacts/dist/
+app-contacts/.env
+app-contacts/.env.local
+app-contacts/.eslintcache
+
+# --- Editor / SO ---
+.vscode/
+.DS_Store
+Thumbs.db
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
